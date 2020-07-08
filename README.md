@@ -8,7 +8,7 @@ These scripts are listed in the sub-folder 'RF_data_generation'. Two per-channel
 
 ### Beamforming Functions
 Three beamforming methods are included in the package: the DRF method, the SASB method, and the srDAS method. These beamforming functions are located in the folder 'beamforming_function'. The output of these three beamforming methods using a point spread function phantom is shown in Figure 1.
-![Image](output_beamforming.png)
+[Figure 1](output_beamforming.png)
 
 ```markdown
 Syntax highlighted code block
