@@ -64,7 +64,8 @@ SOS_estimateFromLRI_step1_select;
 % estimate sos in the region of interest
 SOS_estimateFromLRI_step2
 
-disp(['The estimatated SOS at this point is ', num2str(round(velocity_vector)), 'm/s' ]);
+disp(['The estimatated SOS at this point is ',...
+num2str(round(velocity_vector)), 'm/s' ]);
 ```
 
 ## References
