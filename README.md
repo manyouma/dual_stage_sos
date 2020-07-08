@@ -21,8 +21,8 @@ Please click [here](http://www.ece.ubc.ca/~manyoum/dual_stage_sos/dual_stage_sos
 ## Getting started
 After downloading and unpacking the zip folder, please ensure that the Field II [1] simulation software is installed correctly. The following script can be used to generate the graphs presented on this page.
 
-```Matlab
-'clear all;
+```
+clear all;
 close all;
 
 %% Generate the one layer RF signal
@@ -60,7 +60,7 @@ SOS_estimateFromLRI_step1_select;
 % estimate sos in the region of interest
 SOS_estimateFromLRI_step2
 
-disp(['The estimatated SOS at this point is ', num2str(round(velocity_vector)), 'm/s' ]);'
+disp(['The estimatated SOS at this point is ', num2str(round(velocity_vector)), 'm/s' ]);
 ```
 
 ## References
