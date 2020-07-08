@@ -63,12 +63,27 @@ SOS_estimateFromLRI_step2
 disp(['The estimatated SOS at this point is ', num2str(round(velocity_vector)), 'm/s' ]);'
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## References
 
-### Jekyll Themes
+[1] Field II Ultrasound Simulation Program. http://field-ii.dk/
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/manyouma/dual_stage_sos/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[2] Jacob Kortbek, Jørgen Arendt Jensen, Kim Løkke Gammelmark, Sequential beamforming for synthetic aperture imaging, Ultrasonics, Volume 53, Issue 1, January 2013, Pages 1-16, ISSN 0041-624X, http://dx.doi.org/10.1016/j.ultras.2012.06.006. (http://www.sciencedirect.com/science/article/pii/S0041624X12001138)
 
-### Support or Contact
+[3] Manyou Ma, Robert Rohling, Lutz Lampe, Speed of Sound Estimation for Dual-Stage Virtual Source Ultrasound Beamforming Using Point Scatterers, SPIE Medical Imaging 2017
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Citation
+
+The software is freely usable provided that publications resulting from the use of this software cite the publications listed here [3] and include a link to this website.
+
+## Contact Us
+
+Please contact us if you have questions about this package.
+
+[Manyou Ma](manyouma.github.io), Dr. R.Rohling, Dr. L.Lampe
+
+Electrical and Computer Engineering,
+The Univeristy of British Columbia,
+Vancouver, BC, V6T1Z4
+
+Email: {manyoum, rohling, lampe} at ece.ubc.ca
+
