@@ -7,10 +7,14 @@ This package consists of four types of functions:
 These scripts are listed in the sub-folder 'RF_data_generation'. Two per-channel RF data generation scripts are provided. The 'RF_generate.m' file simulates a focused transmission in a one-layer medium; whereas the 'RF_twoLayers.m' file simulates a focused transmission in a two-layer phantom with two distinct SOSs. This is achieved by compensating for the time-of-flight (TOF) difference in a one-layer and two-layer phantom.
 
 ### Beamforming Functions
-Three beamforming methods are included in the package: the DRF method, the SASB method, and the srDAS method. These beamforming functions are located in the folder 'beamforming_function'. The output of these three beamforming methods using a point spread function phantom is shown in ![Figure 1](output_beamforming.png).
+Three beamforming methods are included in the package: the DRF method, the SASB method, and the srDAS method. These beamforming functions are located in the folder 'beamforming_function'. The output of these three beamforming methods using a point spread function phantom is shown in Figure 1. 
+
+![Figure 1](output_beamforming.png).
 
 ### SOS Estimation and Correction Functions
-The SOS can then be calculated based on the srDAS image of the phantoms. These functions are located in the folder 'SOS_estimation_function'. In the package, SOS estimation is performed by using a rectangle to highlight the region of interest. By setting the 'DisplayImage' flag, intermediate steps in SOS estimation can also be displayed, one of such plots is shown in ![Figure 2](SOS_estimation.png).
+The SOS can then be calculated based on the srDAS image of the phantoms. These functions are located in the folder 'SOS_estimation_function'. In the package, SOS estimation is performed by using a rectangle to highlight the region of interest. By setting the 'DisplayImage' flag, intermediate steps in SOS estimation can also be displayed, one of such plots is shown in Figure 2.
+
+![Figure 2](SOS_estimation.png)
 
 ### Helper Functions
 There are also several auxiliary functions used to display images, calculated element center locations, and for other tasks. These functions are located in the folder 'helper_function'. The function used to display B-mode image is a modification of the code available on the Field II [1] website.
@@ -79,7 +83,7 @@ The software is freely usable provided that publications resulting from the use 
 
 Please contact us if you have questions about this package.
 
-[Manyou Ma](manyouma.github.io), Dr. R.Rohling, Dr. L.Lampe
+[Manyou Ma](http://manyouma.github.io), Dr. R.Rohling, Dr. L.Lampe
 
 Electrical and Computer Engineering,
 The Univeristy of British Columbia,
