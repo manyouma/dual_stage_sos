@@ -1,3 +1,3 @@
 theme: jekyll-theme-minimal
 title: Speed of Sound Estimation and Correction in Dual Stage Ultrasound
-description: This software package is a collection of MATLAB functions for simulating several ultrasound beamforming methods and a new developed speed-of-sound (SOS) estimation method using the Field II simulation software.
+description: MATLAB package for biomedical ultrasound beamforming.
