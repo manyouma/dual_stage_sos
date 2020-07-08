@@ -16,12 +16,12 @@ The SOS can then be calculated based on the srDAS image of the phantoms. These f
 There are also several auxiliary functions used to display images, calculated element center locations, and for other tasks. These functions are located in the folder 'helper_function'. The function used to display B-mode image is a modification of the code available on the Field II [1] website.
 
 ## Download
-Please click [here](http://www.ece.ubc.ca/~manyoum/dual_stage_sos/dual_stage_sos.zip) to download a zip folder of this package. [lincense](license.txt)
+Please click [here](http://www.ece.ubc.ca/~manyoum/dual_stage_sos/dual_stage_sos.zip) to download a zip folder of this package [(lincense)](license.txt).
 
 ## Getting started
 After downloading and unpacking the zip folder, please ensure that the Field II [1] simulation software is installed correctly. The following script can be used to generate the graphs presented on this page.
 
-```
+``` matlab
 clear all;
 close all;
 
